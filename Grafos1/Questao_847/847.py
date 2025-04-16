@@ -1,17 +1,17 @@
 from collections import deque 
 class Solution:
     def shortestPathLength(self, graph):
-        n = len(graph) # Armazena o número total de nós
-        objetivo = frozenset(range(n)) # Conjutno dos nós que precisam ser visitados
-        fila = deque()
+        total_nos = len(graph) # Armazena o número total de nós
+        objetivo = frozenset(range(total_nos)) # Conjutno dos nós que precisam ser visitados
+        passos = 0 # Contador de passo até visitar todos os nós
+        fila = deque() # Fila de estados
         visitados = set() # Conjunto para armazenar os estados já explorados
         def inicializar_estado(indice): # Inicializa a fila com cada nó como ponto de partida
             estado = (indice, frozenset([indice])) # Nó atual
             fila.append(estado) # Adiciona o estado a fila
             visitados.add(estado) # Marca o estado como visitado
-        for i in range(n):
+        for i in range(total_nos):
             inicializar_estado(i) # Para cada nó, inicializa a BFS a partir dele
-        passos = 0 # Contador de passo até visitar todos os nós
         def processar_nivel():
             for _ in range(len(fila)):
                 no_atual, nos_visitados = fila.popleft() # Para cada estado, remove o próximo estado da fila
@@ -23,8 +23,8 @@ class Solution:
                     if novo_estado not in visitados:
                         visitados.add(novo_estado) # Marca o novo estado como visitado
                         fila.append(novo_estado) # Adiciona o novo estado a fila
-            return False
+            return False # Caso os nós não possam ser visitados, retorna False
         while fila:
             if processar_nivel(): # Processa o nível e verifica se todos os foram visitados
                 return passos # Retorna o número de passos se a condição for satisfeita
-            passos +=1
+            passos +=1 # Incrementa o número de passos após processar um nível
