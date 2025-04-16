@@ -16,7 +16,7 @@ Esse projeto visa contemplar a resolução de alguns exercícios sobre os conte�
 | Questão | Nome                                                                                 | Dificuldade |
 |---------|--------------------------------------------------------------------------------------|-------------|
 | 207     | [Course Schedule](https://leetcode.com/problems/course-schedule/description/)        | Média       |
-| 847     | [Shortest Path Visiting All Nodes]([https://leetcode.com/problems/course-schedule/description/](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/))        | Difícil       |
+| 847     | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)        | Difícil       |
 
 ## Screenshots
 
