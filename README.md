@@ -17,6 +17,8 @@ Esse projeto visa contemplar a resolução de alguns exercícios sobre os conte�
 |---------|--------------------------------------------------------------------------------------|-------------|
 | 207     | [Course Schedule](https://leetcode.com/problems/course-schedule/description/)        | Média       |
 | 847     | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)        | Difícil       |
+| 2360     | [Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/description/)        | Difícil       |
+| 797     | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)        | Média      |
 
 ## Screenshots
 
@@ -27,6 +29,14 @@ Esse projeto visa contemplar a resolução de alguns exercícios sobre os conte�
 *Questão 847 - Shortest Path Visiting All Nodes*
 
 ![Questão 847 - Shortest Path Visiting All Nodes](Grafos1/Questao_847/LC847.png)
+
+*Questão 2360 - Longest Cycle in a Graph*
+
+![Questão 2360 - Longest Cycle in a Graph](Grafos1/Questao_2360/2360.png)
+
+*Questão 797 - All Paths From Source to Target*
+
+![Questão 797 - All Paths From Source to Target](Grafos1/Questao_797/797.png)
 
 
 ## Instalação 
