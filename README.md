@@ -25,6 +25,9 @@ Conforme mencionado acima, esse projeto visa contemplar a resolução de alguns 
 | 2360     | [Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/description/)        | Difícil       |
 | 797     | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)        | Média      |
 
+### Link para o vídeo de apresentação
+https://drive.google.com/file/d/1YWS9Wmpw0_inF_CcoNwUwpYmmW48uPtp/view?usp=share_link
+
 ## Screenshots
 
 Segue abaixo Screenshots demonstrando que as soluções para os respectivos problemas foram aceitas em todos os testes de caso:
