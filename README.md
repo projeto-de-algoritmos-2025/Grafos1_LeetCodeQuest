@@ -30,7 +30,7 @@ Esse projeto visa contemplar a resolução de alguns exercícios sobre os conte�
 
 
 ## Instalação 
-**Linguagem**: Python <br>
+**Linguagem**: Python, C <br>
 **Framework**: <!-- (caso exista)<br> -->
 <!-- Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários -->
 
